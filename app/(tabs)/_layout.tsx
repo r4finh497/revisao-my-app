@@ -39,6 +39,38 @@ export default function TabLayout() {
           title: 'Explore',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
+        />
+      <Tabs.Screen
+        name="Config"
+        options={{
+          title: 'Config',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="mode-edit.fill" color={color} />,
+        }}
+        
+      />
+      <Tabs.Screen
+        name="Emulator"
+        options={{
+          title: 'Emulator',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="computer.fill" color={color} />,
+        }}
+        
+      />
+      <Tabs.Screen
+        name="Estrutura"
+        options={{
+          title: 'Estrutura',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="build" color={color} />,
+        }}
+        
+      />
+      <Tabs.Screen
+        name="Sobre"
+        options={{
+          title: 'Sobre',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="person" color={color} />,
+        }}
+        
       />
     </Tabs>
   );
